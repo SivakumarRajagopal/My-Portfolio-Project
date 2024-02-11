@@ -1,0 +1,32 @@
+.project-list-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 1.8rem;
+    row-gap: 1.8rem;
+}
+
+.each-project-container {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    /* width: 18rem; */
+    background-color: var(--container-color);
+    /* padding: 6rem 0 2rem 2.5rem; */
+    /* display: flex;
+    flex-direction: column; */
+    width: 300px;
+}
+
+.project-img {
+    width: 300px;
+    height: 200px;
+}
+
+.project_details-container {
+     width: 280px;
+     margin: auto;
+} 
+
+.project_details {
+    font-size: 0.8rem;
+    text-align: justify;
+}
