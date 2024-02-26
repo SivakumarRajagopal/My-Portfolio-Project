@@ -1,4 +1,5 @@
 import React from 'react'
+import { backendSkillSets } from '../../appContants'
 
 const Backend = () => {
   return (
@@ -7,59 +8,17 @@ const Backend = () => {
 
         <div className="skills__box">
             <div className="skills__group">
-                <div className="skills__data">
-                 <i class='bx bx-badge-check'></i>
-
-                 <div>
-                    <h3 className="skills__name">Node Js</h3>
-                    <span className="skills__level">Intermediate</span>
+               {backendSkillSets.map((eachItem) => (
+                  <div className="skills__data">
+                  <i class='bx bx-badge-check'></i>
+ 
+                  <div>
+                     <h3 className="skills__name">{eachItem.skillName}</h3>
+                     <span className="skills__level">{eachItem.skillLevel}</span>
+                  </div>
                  </div>
-                </div>
+               ))}
 
-                <div className="skills__data">
-                 <i class='bx bx-badge-check'></i>
-
-                 <div>
-                    <h3 className="skills__name">Python</h3>
-                    <span className="skills__level">Intermediate</span>
-                 </div>
-                </div>
-
-                <div className="skills__data">
-                 <i class='bx bx-badge-check'></i>
-
-                 <div>
-                    <h3 className="skills__name">My Sql</h3>
-                    <span className="skills__level">Intermediate</span>
-                 </div>
-                </div>
-</div> <div className="skills__group">
-                <div className="skills__data">
-                 <i class='bx bx-badge-check'></i>
-
-                 <div>
-                    <h3 className="skills__name">Mongodb</h3>
-                    <span className="skills__level">Basic</span>
-                 </div>
-                </div>
-
-                {/* <div className="skills__data">
-                 <i class='bx bx-badge-check'></i>
-
-                 <div>
-                    <h3 className="skills__name">Mongoose</h3>
-                    <span className="skills__level">Basic</span>
-                 </div>
-                </div>
-
-                <div className="skills__data">
-                 <i class='bx bx-badge-check'></i>
-
-                 <div>
-                    <h3 className="skills__name">Mongoose</h3>
-                    <span className="skills__level">Basic</span>
-                 </div>
-                </div> */}
             </div>
         </div>
     </div>

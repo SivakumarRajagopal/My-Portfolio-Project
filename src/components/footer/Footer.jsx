@@ -1,5 +1,7 @@
 import React from 'react';
 import './footer.css';
+import { footerLinks, footerSocialLink } from '../../appContants';
+
 
 const Footer = () => {
   return (
@@ -8,33 +10,16 @@ const Footer = () => {
             <h1 className="footer__title">Sivakumar</h1>
 
             <ul className="footer__list">
-                <li>
-                    <a href="#about"
-                     className="footer__link">About</a>
-                </li>
-
-                <li>
-                    <a href="#portfolio"
-                     className="footer__link">Project</a>
-                </li>
-
-                <li>
-                    <a href="#testimonial" className="footer__link">Testimonial</a>
-                </li>
+                {footerLinks.map((eachItem) => (<li key={eachItem.id}>
+                    <a href={eachItem.hrefLink}
+                     className="footer__link">{eachItem.linkContent}</a>
+                </li>))}
             </ul>
 
             <div className="footer__social">
-                <a href="mailto:sivakumar07civil@gmail.com" className="footer__social-link" target="_blank" rel="noreferrer">
-                <i class='bx bxl-gmail' ></i>
-                </a>
-
-                <a href="https://www.linkedin.com/in/sivakumar140798/" className="footer__social-link" target="_blank" rel="noreferrer">
-                <i class='bx bxl-linkedin' ></i>
-                </a>
-
-                <a href="https://github.com/SivakumarRajagopal" className="footer__social-link" target="_blank" rel="noreferrer">
-                <i class='bx bxl-github' ></i>
-                </a>
+                {footerSocialLink.map(eachItem => (<a key={eachItem.id} href={eachItem.hrefLink} className="footer__social-link" target="_blank" rel="noreferrer">
+                <i className={`bx ${eachItem.iconName}`} ></i>
+                </a>))}
             </div>
 
             <span className="footer__copy">

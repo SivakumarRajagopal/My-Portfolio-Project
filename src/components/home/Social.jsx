@@ -1,21 +1,13 @@
 import React from 'react';
-
+import { socialLinkDetails } from '../../appContants';
 
 const Social = () => {
   return (
     <div>
       <div className="home__social">
-        <a href="mailto:sivakumar07civil@gmail.com" className="home__social-icon" target="_blank" rel="noreferrer">
-        <i class="uil uil-envelope-alt"></i>
-        </a>
-
-        <a href="https://www.linkedin.com/in/sivakumar140798/" className="home__social-icon" target="_blank" rel="noreferrer">
-        <i class="uil uil-linkedin-alt"></i>
-        </a>
-
-        <a href="https://github.com/SivakumarRajagopal" className="home__social-icon" target="_blank" rel="noreferrer">
-        <i class="uil uil-github-alt"></i>
-        </a>
+        {socialLinkDetails.map(eachItem => (<a key={eachItem.id} href={eachItem.hrefLink} className="home__social-icon" target="_blank" rel="noreferrer">
+        <i className={`uil ${eachItem.iconName}`}></i>
+        </a>))}
       </div>
     </div>
   )

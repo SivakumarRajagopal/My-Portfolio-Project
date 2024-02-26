@@ -1,4 +1,5 @@
 import React from 'react'
+import { frontendSkillSets } from '../../appContants'
 
 const Frontend = () => {
   return (
@@ -7,62 +8,17 @@ const Frontend = () => {
 
         <div className="skills__box">
             <div className="skills__group">
-
-                <div className="skills__data">
-                 <i class='bx bx-badge-check'></i>
-
-                 <div>
-                    <h3 className="skills__name">HTML</h3>
-                    <span className="skills__level">Intermediate</span>
+               {frontendSkillSets.map((eachItem) => (
+                  <div className="skills__data">
+                  <i class='bx bx-badge-check'></i>
+ 
+                  <div>
+                     <h3 className="skills__name">{eachItem.skillName}</h3>
+                     <span className="skills__level">{eachItem.skillLevel}</span>
+                  </div>
                  </div>
-                </div>
-
-                <div className="skills__data">
-                 <i class='bx bx-badge-check'></i>
-
-                 <div>
-                    <h3 className="skills__name">CSS</h3>
-                    <span className="skills__level">Intermediate</span>
-                 </div>
-                </div>
-
-                <div className="skills__data">
-                 <i class='bx bx-badge-check'></i>
-
-                 <div>
-                    <h3 className="skills__name">JavaScript</h3>
-                    <span className="skills__level">Intermediate</span>
-                 </div>
-                </div>
-                </div>
-         <div className="skills__group">
-                <div className="skills__data">
-                 <i class='bx bx-badge-check'></i>
-
-                 <div>
-                    <h3 className="skills__name">Bootstrap</h3>
-                    <span className="skills__level">Intermediate</span>
-                 </div>
-                </div>
-                
-
-                <div className="skills__data">
-                 <i class='bx bx-badge-check'></i>
-
-                 <div>
-                    <h3 className="skills__name">React Js</h3>
-                    <span className="skills__level">Intermediate</span>
-                 </div>
-                </div>
-
-                <div className="skills__data">
-                 <i class='bx bx-badge-check'></i>
-
-                 <div>
-                    <h3 className="skills__name">Tailwind</h3>
-                    <span className="skills__level">Intermediate</span>
-                 </div>
-                </div>
+               ))}
+  
             </div>
         </div>
     </div>
