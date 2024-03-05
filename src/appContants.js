@@ -132,13 +132,21 @@ export const githubProjects = [
         webProjectLink: "https://jobbyAppBySiva.ccbp.tech"
     },
     {
-        id: 5,
-        projectName: 'Nike Web App',
-        sampleImg: 'https://res.cloudinary.com/dmwfyw4xk/image/upload/v1708948286/cld-sample-5.jpg',
-        projectDetails: "I have frontend part of nike web application which is developed with the help of tailwind to run this application give commant npm run dev.",
-        githubLink: "https://github.com/SivakumarRajagopal/Nike-Web-App", 
-        webProjectLink: "https://nikewebbysiva.netlify.app/"
+        id:4,
+        projectName: 'Todo App',
+        sampleImg: 'https://nkb-backend-media-static-tenxiitian.s3.ap-south-1.amazonaws.com/tenxiitian_prod/programs/Tech+Programs/frontend-content/ccbp/coding-practice-questions/dynamic-webapps/todo-application-part-1-v1.png',
+        projectDetails: "I have developed the todo-list App with the html, css and javascript",
+        githubLink: 'https://github.com/SivakumarRajagopal/TodoList.git',
+        webProjectLink: 'https://sivakumarrajagopal.github.io/TodoList',
     }
+    // {
+    //     id: 5,
+    //     projectName: 'Nike Web App',
+    //     sampleImg: 'https://res.cloudinary.com/dmwfyw4xk/image/upload/v1708948286/cld-sample-5.jpg',
+    //     projectDetails: "I have frontend part of nike web application which is developed with the help of tailwind to run this application give commant npm run dev.",
+    //     githubLink: "https://github.com/SivakumarRajagopal/Nike-Web-App", 
+    //     webProjectLink: "https://nikewebbysiva.netlify.app/"
+    // }
 ]
 
 

@@ -20,11 +20,11 @@ const Projects = () => (
                         <p className='project_details'>{eachProject.projectDetails}</p>
                     </div>
                     <div className='view-container'>
-                    <a href={eachProject.githubLink} className='link-decorations' target='_blank'>
+                    <a href={eachProject.githubLink} className='link-decorations' target='_blank' rel="noreferrer">
                         <i className="uil uil-github"></i>
                     </a>
             
-                    <a href={eachProject.webProjectLink} className='link-decorations' target='_blank'>
+                    <a href={eachProject.webProjectLink} className='link-decorations' target='_blank' rel="noreferrer">
                         <i className="uil uil-link"></i>
                     </a>
                     </div>
