@@ -9,8 +9,8 @@ const Backend = () => {
         <div className="skills__box">
             <div className="skills__group">
                {backendSkillSets.map((eachItem) => (
-                  <div className="skills__data">
-                  <i class='bx bx-badge-check'></i>
+                  <div key={eachItem.skillName} className="skills__data">
+                  <i className='bx bx-badge-check'></i>
  
                   <div>
                      <h3 className="skills__name">{eachItem.skillName}</h3>

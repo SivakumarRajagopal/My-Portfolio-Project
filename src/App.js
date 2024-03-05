@@ -9,6 +9,7 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Projects from './components/projects/Projects';
+import Qualification from './components/qualification/Qualification';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Home />
     <About />
     <Skills />
+    <Qualification />
     <Projects />
     <Contact />
     

@@ -19,6 +19,15 @@ const Projects = () => (
                     <div className='project_details-container'>
                         <p className='project_details'>{eachProject.projectDetails}</p>
                     </div>
+                    <div className='view-container'>
+                    <a href={eachProject.githubLink} className='link-decorations' target='_blank'>
+                        <i className="uil uil-github"></i>
+                    </a>
+            
+                    <a href={eachProject.webProjectLink} className='link-decorations' target='_blank'>
+                        <i className="uil uil-link"></i>
+                    </a>
+                    </div>
                 </div>
             </li>))}
         </ul>
