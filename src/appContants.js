@@ -125,11 +125,11 @@ export const githubProjects = [
     ,
     {
         id: 3, 
-        projectName: 'Jobby App',
-        sampleImg: "https://assets.ccbp.in/frontend/content/react-js/jobby-app-home-lg-output.png",
-        projectDetails: 'I have developed the frontend part of jobby app like indeed app  using React Js which is job searching platform. The user can search, sort, filter the job and view the webpage.',
-        githubLink: 'https://github.com/SivakumarRajagopal/JobbyApp-Nxtwave',
-        webProjectLink: "https://jobbyAppBySiva.ccbp.tech"
+        projectName: 'Emoji Game App',
+        sampleImg: "https://assets.ccbp.in/frontend/content/react-js/emoji-game-lg-output-v2.png",
+        projectDetails: 'I have developed the frontend part of Emoji Game app using React js which displays score and win and loss page.',
+        githubLink: 'https://github.com/SivakumarRajagopal/emoji-game-react-js',
+        webProjectLink: "https://emogamebysiva.ccbp.tech"
     },
     {
         id:4,
@@ -139,14 +139,24 @@ export const githubProjects = [
         githubLink: 'https://github.com/SivakumarRajagopal/TodoList.git',
         webProjectLink: 'https://sivakumarrajagopal.github.io/TodoList',
     }
-    // {
-    //     id: 5,
-    //     projectName: 'Nike Web App',
-    //     sampleImg: 'https://res.cloudinary.com/dmwfyw4xk/image/upload/v1708948286/cld-sample-5.jpg',
-    //     projectDetails: "I have frontend part of nike web application which is developed with the help of tailwind to run this application give commant npm run dev.",
-    //     githubLink: "https://github.com/SivakumarRajagopal/Nike-Web-App", 
-    //     webProjectLink: "https://nikewebbysiva.netlify.app/"
-    // }
+    ,
+    {
+        id: 5, 
+        projectName: 'Jobby App',
+        sampleImg: "https://assets.ccbp.in/frontend/content/react-js/jobby-app-home-lg-output.png",
+        projectDetails: 'I have developed the frontend part of jobby app like indeed app (view only in laptop) using React Js which is job searching platform. The user can search, sort, filter the job and view the webpage.',
+        githubLink: 'https://github.com/SivakumarRajagopal/JobbyApp-Nxtwave',
+        webProjectLink: "https://jobbyAppBySiva.ccbp.tech"
+    },
+   
+    {
+        id: 5,
+        projectName: 'Nike Web App',
+        sampleImg: 'https://res.cloudinary.com/dmwfyw4xk/image/upload/v1708948286/cld-sample-5.jpg',
+        projectDetails: "I have frontend part of nike web application (view only in laptop) which is developed with the help of tailwind to run this application give commant npm run dev.",
+        githubLink: "https://github.com/SivakumarRajagopal/Nike-Web-App", 
+        webProjectLink: "https://nikewebbysiva.netlify.app/"
+    }
 ]
 
 
